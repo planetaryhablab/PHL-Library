@@ -1,7 +1,8 @@
 The Planetary Habitability Library
 
-This Python module contains a collection of functions related to planetary habitability.
-This is a work in progress and the first version is planned for December 2018.
+	This Python module contains a collection of functions related to planetary
+	habitability. This is a work in progress and the first version is planned
+	for December 2018.
 
 Functions (references in brackets):
 
@@ -28,10 +29,11 @@ Usage:
 	Out: 254.74150455519143
 	
 Requirements:
+
 	Requires the Math and SciPy Python libraries.
 
 References:
 
-[1]	Méndez, Abel, and Edgard G. Rivera-Valentín. “The Equilibrium Temperature of
+	[1]	Méndez, Abel, and Edgard G. Rivera-Valentín. “The Equilibrium Temperature of
 	Planets in Elliptical Orbits.” The Astrophysical Journal Letters 837, no. 1 (2017):
 	L1. https://doi.org/10.3847/2041-8213/aa5f13.
