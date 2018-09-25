@@ -1,0 +1,99 @@
+
+# coding: utf-8
+
+# In[1]:
+
+
+import phl
+phl.teq(0.39,0.20,0.12,1) 
+
+
+# This is the example for Mercury
+
+# In[2]:
+
+
+import phl
+phl.teq(0.72,0.006,0.9,1)
+
+
+# This is the example for Venus
+
+# In[3]:
+
+
+import phl
+phl.teq(1.0,0.01,0.3,1)
+
+
+# This is the example for Earth
+
+# In[4]:
+
+
+import phl
+phl.teq(1.5,0.09,0.25,1)
+
+
+# This is the example for Mars
+
+# In[5]:
+
+
+import phl
+phl.teq(5.2,0.04,0.5,1)
+
+
+# This is the example for Jupiter
+
+# In[6]:
+
+
+import phl
+phl.teq(9.5,0.05,0.4,1)
+
+
+# This is the example for Saturn
+
+# In[7]:
+
+
+import phl
+phl.teq(19.19,0.05,0.5,1)
+
+
+# This is the example for Uranus
+
+# In[8]:
+
+
+import phl
+phl.teq(30.06,0.06,0.4,1)
+
+
+# This is the example for Neptune
+
+# All of the kelvin temperatures are estimates given with the semi-mayor axis, the eccentricity, the visual geometric albedo and the Luminosity. The data used for these variables was cited from different sources to be able to provide the library with an example.
+
+# Solar System planets:                                                                      Temperature(k)
+# 1.Mercury                                                                                  394.78110272705237
+# 2.Venus                                                                                    179.95880554595053
+# 3.Earth                                                                                    246.7528255819576
+# 4.Mars                                                                                     196.39948490235275
+# 5.Jupiter                                                                                  97.0415465447155
+# 6.Saturn                                                                                   74.78102828996792
+# 7.Uranus                                                                                   50.2713370848485
+# 8.Neptune                                                                                  41.86971198335797
+
+# With this data the user can create different plots using maptolib
+
+# In[22]:
+
+
+import matplotlib.pyplot as plt
+plt.plot([394.78, 179.96, 246.75, 196.40, 97.04, 74.78, 50.27, 41.86], [1, 2, 3, 4, 5, 6, 7, 8], 'ro')
+plt.axis([30, 400, 0, 9])
+plt.show()
+
+
+# This is a simple example of a graph utilizing points with the number corresponding to the solar system planet and their teq.
