@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 """
-
 The Planetary Habitability Library
 
 This Python module contains a collection of functions related to planetary habitability.
@@ -47,9 +46,9 @@ def flux(a,e,L):
 def teq(a,e,A,L):
 	To = 278.5
 	return To*((1-A)*L/a**2)**(1/4.)*(2*math.sqrt(1+e)/math.pi)*\
-	special.ellipe(math.sqrt(2*e/(1+e)))
+	special.ellipe(2*e/(1+e))
 	
 # effective thermal distance [1]
 # a = semi-major axis (AU), e = eccentricity
 def reff(a,e):
-	return a*((2*math.sqrt(1+e)/math.pi)*special.ellipe(math.sqrt(2*e/(1+e))))**(-2.)
+	return a*((2*math.sqrt(1+e)/math.pi)*special.ellipe(2*e/(1+e)))**(-2.)
