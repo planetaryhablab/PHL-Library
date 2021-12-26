@@ -2,7 +2,7 @@ The Planetary Habitability Library
 
 	This Python module contains a collection of functions related to planetary
 	habitability. This is a work in progress and the first version is planned
-	for December 2020.
+	for December 2022.
 
 Functions (references in brackets):
 
